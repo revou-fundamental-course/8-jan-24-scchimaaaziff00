@@ -3,21 +3,60 @@ body {
 }
 
 header h1 {
+    font-family: cursive;
     background-color: #031926;
     color: white;
     text-align: center;
+    padding: 20px;
+    border-radius: 3px;
 }
 
 header h4 {
     margin-top: 32px;
     text-align: center;
+    font-size: larger;
 }
 
 header p {
     margin-top: -7px;
     color: #031926;
-    font-size: x-small;
+    font-size: small;
     text-align: center;
+}
+
+table {
+    margin-top: 25px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.judul {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #031926;
+    color: white;
+    border-radius: 10px;
+    padding: 4px;
+}
+
+.asset {
+    text-align: center;
+}
+.asset img {
+    margin-top: 15px;
+    text-align: center;
+    height: 200px;
+}
+
+.materi {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    font-size: small;
+}
+
+.highlight {
+    background-color: rgb(219, 197, 98);
+    padding: 5px;
+    border-radius: 5px;
 }
 
 .InputSection {
@@ -26,9 +65,11 @@ header p {
     text-align: center;
     display: flex;
     flex-direction: column;
+    font-size: medium;
 }
 
 #squareSide {
+    background-color: #e6eaec;
     margin-top: -10px;
     outline: none;
     border-radius: 10px;
@@ -46,18 +87,42 @@ header p {
 
 button {
     margin-top: 5px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #031926;
     color: #ffffff;
     border-radius: 10px;
-    padding: 9px; 10px
+    padding: 7px; ;
     cursor: pointer;
 }
 
-button:hover  {
-    background-color: #545c61;
+#hitung {
+    background-color: #031926;
 }
 
-button:active {
-    background-color: #c8cbcc;
-    transform: translateY(6px)
+#reset {
+    background-color: #c22f2f;
+}
+
+.hasilAkhir {
+    text-align: center;
+    justify-content: center;
+    margin-top: 8px;
+    background-color: #40677e63;
+    color: rgb(0, 0, 0);
+    padding: 7px;
+    border-radius: 9px;
+    padding-bottom: 30px;
+}
+
+#Luas {
+    text-align: center;
+    font-size: medium;
+    border-radius: 5px;
+
+}
+
+#Keliling {
+    text-align: center;
+    font-size: medium;
+    border-radius: 5px;
 }

@@ -4,23 +4,120 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
+    <script src="javascript/script.js"></script>
     <title>Katik</title>
 </head>
 <body>
     <header>
         <h1>Katik</h1>
-        <h4>Welcome to Katik</h4>
+        <h4>Welcome to Katik!</h4>
         <p>Hi Kawan, Selamat datang di Katik :)</p>
-        <p>Sebuah web apps sederhana yang berfungsi untuk menghitung nilai luas dan keliling bangun datar</p>
+        <p>Sebuah web apps sederhana yang berfungsi untuk menghitung nilai luas dan keliling bangun datar Persegi</p>
     </header>
 
+    <table>
+        <tr>
+            <th class="judul" colspan="2"><p>RUMUS PERSEGI</p></th>
+        </tr>
+        <tr>
+            <td colspan="2" class="asset"><img src="asset/Persegi.jpg"  href="bujur sangkar" title="Persegi"></td>
+        </tr>
+        <tr>
+            <td class="materi"><p>Rumus Luas Persegi yaitu :</p>
+                <p><span class="highlight">L = S x S</span></p>
+                <p>Dimana : <br>
+                L = Luas <br>
+                S = Sisi</p></td>
+            <td class="materi"><p>Rumus Keliling Persegi yaitu :</p>
+                <p><span class="highlight">K = 4S atau S x S x S x S</span></p>
+                <p>Dimana : <br>
+                K = Keliling <br>
+                S = Sisi</p></td>
+        </tr>
+        </table>
+
+
+        <!--
+    <table>
+        <tr>
+            <th>
+                <div class="materiluas">
+                    <h4>Luas Persegi</h4>
+                    <img src="https://th.bing.com/th/id/OIP.qvHJEyqdExo96s1mRUIK1wAAAA?w=129&h=147&c=7&r=0&o=5&pid=1.7" href="bujur sangkar" title="Persegi"><br>
+                    <p>Rumus Luas Persegi yaitu :</p>
+                    <p><span class="highlight">L = S x S</span></p>
+                    <p>Dimana : <br>
+                    L = Luas <br>
+                    S = Sisi</p>
+                </div>
+            </th>
+
+            <th>
+                <div class="materikeliling">
+                    <h4>Keliling Persegi</h4>
+                    <img src="https://th.bing.com/th/id/OIP.qvHJEyqdExo96s1mRUIK1wAAAA?w=129&h=147&c=7&r=0&o=5&pid=1.7" href="bujur sangkar" title="Persegi"><br>
+                    <p>Rumus Keliling Persegi yaitu :</p>
+                    <p><span class="highlight">K = 4S atau S x S x S x S</span></p>
+                    <p>Dimana : <br>
+                    K = Keliling <br>
+                    S = Sisi</p>
+                </div>
+            </th>
+        </tr>
+    </table>
+    -->
+
+    <!--modefied
+        <p>Hitung</p><br>
+        Sisi :<input type="text" id="sisi" name="sisi"><br>
+        <input type="button" id="hitung" value="hitung Luas" onclick="hitungLuas();"><br>
+        Luas : <input type="text" id="Luas" name="Luas"><br>
+        <input type="button" id="hitung" value="hitung Keliling" onclick="hitungKeliling();"><br>
+        Keliling : <input type="text" id="Keliling" name="Keliling"><br>
+        -->
+    <hr>
+    <!--Nama ID=squareSide-->
     <div class="InputSection">
-        <label for="squareSide" id="lblSquareSide">Hitung Luas Persegi</label><br>
+        <label for="squareSide">Hitung</label><br>
+        <input type="text" id="squareSide" name="squareSide"><br>
+    </div>
+
+    <div class="button">
+        <button id="hitung" value="hitungLuas" onclick="hitungLuas()">Hitung Luas</button>
+        <button id="hitung" value="hitungKeliling" onclick="hitungKeliling()">Hitung Keliling</button><br>
+        <button id="reset" value="resetData" onclick="resetData()">Reset</button>
+    </div>
+
+    <!--HASIL PISAH-->
+    <div class="hasilAkhir">
+        <p>Hasil Luas : </p><input type="text" id="Luas" name="Luas"><br>
+        <p>Hasil Keliling : </p><input type="text" id="Keliling" name="Keliling"><br>
+    </div>
+
+    <!--
+        <input type="button" id="hitung" value="hitungLuas" onclick="hitungLuas()">
+        <input type="button" id="hitung" value="hitungKeliling" onclick="hitungKeliling()">
+        Hasil Luas : <input type="text" id="Luas" name="Luas"><br>
+        Hasil Keliling : <input type="text" id="Keliling" name="Keliling"><br>
+-->
+    <!-- Eihhh salah?
+    <div class="button">
+        <button id="countButton">Hitung Luas</button>
+        <button id="countButton">Hitung Keliling</button><br>
+        <button id="resetButton">Reset</button>
+    </div>
+-->
+<!--
+    <div class="InputSection">
+        <label for="squareSide" id="lblSquareSide">Hitung</label><br>
         <input type="number" id="squareSide">
     </div>
     <div class="button">
-        <button id="countButton">Hitung</button>
+        <button id="countButton">Hitung Luas</button>
+        <button id="countButton">Hitung Keliling</button><br>
         <button id="resetButton">Reset</button>
     </div>
+-->
+
 </body>
 </html>
