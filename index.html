@@ -36,46 +36,8 @@
         </tr>
         </table>
 
-
-        <!--
-    <table>
-        <tr>
-            <th>
-                <div class="materiluas">
-                    <h4>Luas Persegi</h4>
-                    <img src="https://th.bing.com/th/id/OIP.qvHJEyqdExo96s1mRUIK1wAAAA?w=129&h=147&c=7&r=0&o=5&pid=1.7" href="bujur sangkar" title="Persegi"><br>
-                    <p>Rumus Luas Persegi yaitu :</p>
-                    <p><span class="highlight">L = S x S</span></p>
-                    <p>Dimana : <br>
-                    L = Luas <br>
-                    S = Sisi</p>
-                </div>
-            </th>
-
-            <th>
-                <div class="materikeliling">
-                    <h4>Keliling Persegi</h4>
-                    <img src="https://th.bing.com/th/id/OIP.qvHJEyqdExo96s1mRUIK1wAAAA?w=129&h=147&c=7&r=0&o=5&pid=1.7" href="bujur sangkar" title="Persegi"><br>
-                    <p>Rumus Keliling Persegi yaitu :</p>
-                    <p><span class="highlight">K = 4S atau S x S x S x S</span></p>
-                    <p>Dimana : <br>
-                    K = Keliling <br>
-                    S = Sisi</p>
-                </div>
-            </th>
-        </tr>
-    </table>
-    -->
-
-    <!--modefied
-        <p>Hitung</p><br>
-        Sisi :<input type="text" id="sisi" name="sisi"><br>
-        <input type="button" id="hitung" value="hitung Luas" onclick="hitungLuas();"><br>
-        Luas : <input type="text" id="Luas" name="Luas"><br>
-        <input type="button" id="hitung" value="hitung Keliling" onclick="hitungKeliling();"><br>
-        Keliling : <input type="text" id="Keliling" name="Keliling"><br>
-        -->
-    <hr>
+   
+        <hr>
     <!--Nama ID=squareSide-->
     <div class="InputSection">
         <label for="squareSide">Hitung</label><br>
@@ -83,41 +45,20 @@
     </div>
 
     <div class="button">
-        <button id="hitung" value="hitungLuas" onclick="hitungLuas()">Hitung Luas</button>
-        <button id="hitung" value="hitungKeliling" onclick="hitungKeliling()">Hitung Keliling</button><br>
+        <button id="hitungL" value="hitungLuas" onclick="hitungLuas()">Hitung Luas</button>
+        <button id="hitungK" value="hitungKeliling" onclick="hitungKeliling()">Hitung Keliling</button><br>
         <button id="reset" value="resetData" onclick="resetData()">Reset</button>
     </div>
 
     <!--HASIL PISAH-->
     <div class="hasilAkhir">
-        <p>Hasil Luas : </p><input type="text" id="Luas" name="Luas"><br>
-        <p>Hasil Keliling : </p><input type="text" id="Keliling" name="Keliling"><br>
+        <label for="Luas">Luas</label>
+        <input type="text" id="Luas" name="Luas">
+        <br>
+        <label for="Keliling">Keliling</label>
+        <input type="text" id="Keliling" name="Keliling">
+        <br>
     </div>
-
-    <!--
-        <input type="button" id="hitung" value="hitungLuas" onclick="hitungLuas()">
-        <input type="button" id="hitung" value="hitungKeliling" onclick="hitungKeliling()">
-        Hasil Luas : <input type="text" id="Luas" name="Luas"><br>
-        Hasil Keliling : <input type="text" id="Keliling" name="Keliling"><br>
--->
-    <!-- Eihhh salah?
-    <div class="button">
-        <button id="countButton">Hitung Luas</button>
-        <button id="countButton">Hitung Keliling</button><br>
-        <button id="resetButton">Reset</button>
-    </div>
--->
-<!--
-    <div class="InputSection">
-        <label for="squareSide" id="lblSquareSide">Hitung</label><br>
-        <input type="number" id="squareSide">
-    </div>
-    <div class="button">
-        <button id="countButton">Hitung Luas</button>
-        <button id="countButton">Hitung Keliling</button><br>
-        <button id="resetButton">Reset</button>
-    </div>
--->
 
 </body>
 </html>

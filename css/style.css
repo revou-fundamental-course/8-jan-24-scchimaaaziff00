@@ -115,6 +115,7 @@ button {
 }
 
 #Luas {
+    margin-top: 15px;
     text-align: center;
     font-size: medium;
     border-radius: 5px;
@@ -123,6 +124,7 @@ button {
 
 #Keliling {
     text-align: center;
+    margin-top: 20px;
     font-size: medium;
     border-radius: 5px;
 }
