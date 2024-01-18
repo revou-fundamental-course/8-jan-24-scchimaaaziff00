@@ -1,4 +1,4 @@
-alert('Halo, Selamat Datang dan Selamat Mencoba Kawan! GOOD LUCK :)')
+alert('Halo, Selamat Datang dan Selamat Mencoba Kawan! GOOD LUCK ᕙ(⇀‸↼‵‵)ᕗ')
 
 //Nama ID=squareSide
 function hitungLuas () {

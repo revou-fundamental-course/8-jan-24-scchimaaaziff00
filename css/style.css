@@ -1,10 +1,11 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
+    background: #FEFCFB;
 }
 
 header h1 {
     font-family: cursive;
-    background-color: #031926;
+    background-color: #0D1B2A;
     color: white;
     text-align: center;
     padding: 20px;
@@ -19,7 +20,7 @@ header h4 {
 
 header p {
     margin-top: -7px;
-    color: #031926;
+    color: #1B1B3A;
     font-size: small;
     text-align: center;
 }
@@ -32,7 +33,7 @@ table {
 
 .judul {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #031926;
+    background-color: #0D1B2A;
     color: white;
     border-radius: 10px;
     padding: 4px;
@@ -44,7 +45,7 @@ table {
 .asset img {
     margin-top: 15px;
     text-align: center;
-    height: 200px;
+    height: 250px;
 }
 
 .materi {
@@ -88,7 +89,7 @@ table {
 button {
     margin-top: 5px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #031926;
+    background-color: #1B263B;
     color: #ffffff;
     border-radius: 10px;
     padding: 7px; ;
@@ -96,7 +97,7 @@ button {
 }
 
 #hitung {
-    background-color: #031926;
+    background-color: #1B263B;
 }
 
 #reset {
@@ -107,7 +108,7 @@ button {
     text-align: center;
     justify-content: center;
     margin-top: 8px;
-    background-color: #40677e63;
+    background-color: #abbace;
     color: rgb(0, 0, 0);
     padding: 7px;
     border-radius: 9px;
